@@ -24,7 +24,9 @@
   + Semantic-UI/CSS
 
 ## Struggles 
-
+  + Data Relationship
+  + Store 
+  + 
 ## Flowchart 
 
 ## Entity Relationship Diagram 
