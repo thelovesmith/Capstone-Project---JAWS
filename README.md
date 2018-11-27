@@ -1,7 +1,7 @@
 # Jack Of All Waves Website 
 
 ## About
-  My Capstone project is a dynamic website for th eMusic Label a close friend of mine and myself started back in Philadelphia. This webpage will house information about our collective including, but not limited to: General Information about who we are, what we do, and why we do it, Music and Videos we have published, upcoming events we are hosting, and an E-commerce store where we will sell merchandise. 
+  My Capstone project is a dynamic website for the Music Label a close friend of mine and myself started back in Philadelphia. This webpage will house information about our collective including, but not limited to: General Information about who we are, what we do, and why we do it, Music and Videos we have published, upcoming events we are hosting, and an E-commerce store where we will sell merchandise. 
 
 ## User Story 
   1. User will land on landing page. Once they click the page it    will render the        Home page
