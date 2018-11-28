@@ -22,12 +22,19 @@
   + Firebase or Django & PostgreSQL
   + Styled Components
   + Semantic-UI/CSS
+  + react-youtube
+
 
 ## Struggles 
   + Data Relationship
   + Store 
   + 
 ## Flowchart 
+![Flow Chart](./Images/JAWSFlowChart.png)
+
+## ERDs
+![Website](./Images/JAWSWebsiteERD.png)
+![MerchShop](./Images/JAWSMerchShop.png)
 
 ## Entity Relationship Diagram 
 
