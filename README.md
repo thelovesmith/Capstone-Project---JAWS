@@ -32,10 +32,10 @@
 ## Flowchart 
 ![Flow Chart](./Images/JAWSFlowChart.png)
 
-## ERDs
+
+## Entity Relationship Diagram 
 ![Website](./Images/JAWSWebsiteERD.png)
 ![MerchShop](./Images/JAWSMerchShop.png)
 
-## Entity Relationship Diagram 
 
 
