@@ -38,11 +38,18 @@
 ![MerchShop](./Images/JAWSMerchShop.png)
 
 ## Wireframes 
+  ### Landing Page
 ![Landing_Page](./Images/Wireframes/Landing_Page.png)
+  ### Home Page
 ![Home_Page](./Images/Wireframes/Homepage.png)
+  ### Bio
 ![Bio](./Images/Wireframes/Bio.png)
+  ###Artists
 ![Artists](./Images/Wireframes/Artists.png)
+  ### Artist Show Page
 ![Artist_Show_Page](./Images/Wireframes/ArtistShow_Page.png)
+  ### Videos
 ![Videos](./Images/Wireframes/Videos.png)
+  ###Events
 ![Events](./Images/Wireframes/Events.png)
 
