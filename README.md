@@ -13,23 +13,26 @@
   7. User can view upcoming shows and tour dates on the "Events"    page
   8. User can purchase merchandise on the "Store" page
     1. User can login, store credit card, address and phone         number 
-    2. User can put merchandise into their shopping cart and use  credit card o rpaypal to purchase info
+    2. User can put merchandise into their shopping cart and use  credit card or paypal to purchase info
     3. __Optional__ : User can log into store with google or        other authorized third party services.
 
 ## Technology
   + React JS
-  + Gatsby JS
+  + Gatsby JS??
   + Firebase 
   + Styled Components
   + Semantic-UI/CSS??
   + react-youtube
   + Cloudinary
+  + This course made me fat(pants didn't fit and I couldnt sit down to code)
+  + React 3D Carousel 
 
 
 ## Struggles 
   + Data Relationship
   + Store 
-  + 
+  + Mobile Responsiveness 
+
 ## Flowchart 
 ![Flow Chart](./Images/JAWSFlowChart.png)
 
@@ -40,6 +43,7 @@
 
 ## Wireframes 
   ### Landing Page
+    + Add button to link to Homepage
 ![Landing_Page](./Images/Wireframes/Landing_Page.png)
   ### Home Page
 ![Home_Page](./Images/Wireframes/Homepage.png)
