@@ -13,6 +13,10 @@ class Header extends Component {
         <Link to='/artists'>Artists</Link>
         <br/>
         <Link to='/videos'>Videos</Link>
+        <br/>
+        <Link to='/events'>Events</Link>
+        <br/>
+        <Link to='/'>store</Link>
       </div>
     )
   }

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class ArtistDisplay extends Component {
+class EventsDisplay extends Component {
   render() {
     return (
       <div>
-        <h2>Single Artist</h2>
+        <h2>Single Event </h2>
 
       </div>
     )
   }
 }
-export default ArtistDisplay;
+export default EventsDisplay;
