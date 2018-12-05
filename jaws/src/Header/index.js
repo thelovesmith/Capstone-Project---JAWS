@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Button,
+  // Button,
   Container,
-  Divider,
-  Grid,
-  Icon,
-  Image,
-  List,
+  // Divider,
+  // Grid,
+  // Icon,
+  // Image,
+  // List,
   Menu,
   Responsive,
-  Segment,
-  Sidebar,
+  // Segment,
+  // Sidebar,
   Visibility,
 } from 'semantic-ui-react'
 
@@ -45,17 +45,18 @@ class Header extends Component {
               >
                 <Container>
                   <Menu.Item>
-                  <img src='https://res.cloudinary.com/averydante/image/upload/c_scale,w_86/v1543898120/Jaws/Shark_Player_Layer_copy.png' />
+                  <img alt='Jack Of All Waves' src='https://res.cloudinary.com/averydante/image/upload/c_scale,w_86/v1543898120/Jaws/Shark_Player_Layer_copy.png' />
                   </Menu.Item>
                   <Menu.Item >
                     <Link to='/home'>
                     Home
-                    </Link></Menu.Item>
-                  <Menu.Item as='a'>About Us</Menu.Item>
-                  <Menu.Item as='a'>Artists</Menu.Item>
-                  <Menu.Item as='a'>Videos</Menu.Item>
-                  <Menu.Item as='a'>Events</Menu.Item>
-                  <Menu.Item as='a'>Store</Menu.Item>
+                    </Link>
+                  </Menu.Item>
+                  <Menu.Item ><Link to='/aboutus'>About Us</Link></Menu.Item>
+                  <Menu.Item ><Link to='/artists'>Artists</Link></Menu.Item>
+                  <Menu.Item ><Link to='/videos'>Videos</Link></Menu.Item>
+                  <Menu.Item ><Link to='/events'>Events</Link></Menu.Item>
+                  <Menu.Item ><Link to='/'>Store</Link></Menu.Item>
                   {/* <Menu.Item position='right'>
                     <Button as='a' inverted={!fixed}>
                       Log in
