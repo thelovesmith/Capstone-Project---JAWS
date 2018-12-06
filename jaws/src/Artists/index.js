@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import ArtistDisplay from '../ArtistsDisplay/index'
-import db from '../Firebase/firebase'
-import styled from 'styled-components'
+import ArtistDisplay from '../ArtistsDisplay/index';
+import db from '../Firebase/firebase';
+import styled from 'styled-components';
  
 const Content = styled.div`
-margin: 5px;
-background-image: url( https://res.cloudinary.com/averydante/image/upload/v1543898168/Jaws/tumblr_n6nlhgSmDr1qzgjfco1_500.gif);
+
+background-image: url( https://media.giphy.com/media/l0MYDdL8WEgSXf41W/giphy.gif);
 background-size: cover;
 background-repeat: no-repeat;
 border-radius: 10px;
+`
+const Header = styled.h1`
+font-size: 50px;
+text-align: center;
 `
 
 class Artists extends Component{
@@ -43,13 +47,12 @@ class Artists extends Component{
           artists: artistsArray
         })
       })
-    })
-    
+    })   
   }
   render(){
     return (
       <Content>
-        <h1>Artists</h1>
+        <Header>Artists</Header>
         <ArtistDisplay allArtists={this.state.artists}/>
       </Content>
     )

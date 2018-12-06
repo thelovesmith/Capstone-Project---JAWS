@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import { Grid, Image, Container } from 'semantic-ui-react'
+import { Grid, Image, Container, Header } from 'semantic-ui-react';
 
 const jaws = 'https://res.cloudinary.com/averydante/image/upload/v1543898127/Jaws/JAWS.png';
-const jawsTeam = 'https://res.cloudinary.com/averydante/image/upload/v1543897945/Jaws/JAWS_TEAM_IMAGE.jpg'
+const jawsTeam = 'https://res.cloudinary.com/averydante/image/upload/v1543897945/Jaws/JAWS_TEAM_IMAGE.jpg';
 class About extends Component {
 
   render(){
     return(
-      <Grid container divided='vertically' stackable>
+      <Grid container divided='vertically' stackable style={{padding: '100px 0px 50px 0px'}}>
         <Grid.Row columns={1}>
           <Grid.Column style={{margin: '10px'}}>
             <Container style={{padding: '10px'}}>
               <Image size='large' centered src={jaws}/>
             </Container>
+            <Header as='h1' textAlign='center' color='orange'> Jack All Of Waves</Header>
           </Grid.Column>
         </Grid.Row>
         <Grid.Row columns={2}>

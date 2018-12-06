@@ -8,7 +8,7 @@ class ArtistDisplay extends Component {
     const allArtists = this.props.allArtists.map((artist) => {
       return (
         
-        <Grid.Row key={artist.key} columns={3} style={{ margin: '5px'}}> 
+        <Grid.Row  key={artist.key} columns={3} style={{ margin: '5px', backgroundImage:'linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d)'}}> 
           <Grid.Column width={4}>
           <Image src={artist.Image}/>
           </Grid.Column>
@@ -18,14 +18,16 @@ class ArtistDisplay extends Component {
           </Grid.Column >
           <Grid.Column width={4}>
             <MicrolinkCard url={artist.Instagram} />
+            <Divider/>
             <MicrolinkCard url={artist.Fanlink}/>
           </Grid.Column>
         </Grid.Row>
         
+        
       )
     })
     return (
-      <Grid divided centered>  
+      <Grid divided centered stackable container style={{paddingBottom: '25px'}} >  
         {allArtists}
 
       </Grid>
