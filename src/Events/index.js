@@ -2,7 +2,17 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import EventsDisplay from '../EventsDisplay/index';
 import db from '../Firebase/firebase';
-import { Container, Header } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
+import styled from 'styled-components'
+
+const headStyle = { fontFamily: 'Bungee', color: '#FFBA36', textShadow: '1px 1px 9px #AC27F2', textAlign: 'center', fontSize: '50px', marginTop: '20px' }
+
+const Content = styled.div`
+background-image: url(https://res.cloudinary.com/averydante/image/upload/v1543898118/Jaws/space_imagw.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+`
 
 class Events extends Component {
   constructor() {
@@ -37,12 +47,12 @@ class Events extends Component {
   }
   render(){
     return(
-      <Container >
-        <Header>
-          Events Page
+      <Content >
+        <Header style={headStyle}>
+          Upcoming <br/>Events
         </Header>
         <EventsDisplay allEvents={this.state.events}/>
-      </Container>
+      </Content>
     )
   }
 }

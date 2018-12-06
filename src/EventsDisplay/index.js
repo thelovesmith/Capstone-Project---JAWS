@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Card, Icon, Image} from 'semantic-ui-react';
 
+const cardGroupStyle = {margin: '10px'};
+
 class EventsDisplay extends Component {
   render() {
     const allEvents = this.props.allEvents.map((event) => {
@@ -18,7 +20,7 @@ class EventsDisplay extends Component {
       )
     })
     return (
-      <Card.Group>
+      <Card.Group style={cardGroupStyle}>
         {allEvents}
 
       </Card.Group>

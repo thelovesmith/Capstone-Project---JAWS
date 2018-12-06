@@ -4,7 +4,7 @@ import db from '../Firebase/firebase'
 import VideoDisplay from '../VideosDisplay/index'
 import styled from 'styled-components'
 
-
+const headStyle = { fontFamily: 'Bungee', color: '#FFBA36', textShadow: '1px 1px 9px #AC27F2', textAlign: 'center', fontSize: '50px', marginTop: '20px' }
 const Header = styled.h1`
 font-size: 50px;
 color: red;
@@ -55,7 +55,7 @@ class Videos extends Component {
   render(){
     return(
       <Content>
-        <Header>Videos</Header>
+        <Header style={headStyle}>Videos</Header>
         <VideoDisplay allVideos={this.state.videos}/>
       </Content>
     )

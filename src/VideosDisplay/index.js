@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MicrolinkCard from 'react-microlink'
-import { Container, Segment, Header, Card, Grid } from 'semantic-ui-react'
+import { Segment, Header, Grid } from 'semantic-ui-react'
 
 
 class VideoDisplay extends Component {

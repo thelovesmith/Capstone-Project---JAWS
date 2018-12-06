@@ -16,6 +16,10 @@ import {
   Visibility,
 } from 'semantic-ui-react'
 
+
+const font = { fontFamily: 'Permanent Marker', fontSize: '25px', color: '#D679D0', textShadow:'0px 1px 3px #6B4B00', letterSpacing: '2px' }
+const font2 = {fontFamily: 'Luckiest Guy'}
+
 class DesktopHeader extends Component {
   state = {}
 
@@ -50,15 +54,15 @@ class DesktopHeader extends Component {
                   <img alt='Jack Of All Waves' src='https://res.cloudinary.com/averydante/image/upload/c_scale,w_86/v1543898120/Jaws/Shark_Player_Layer_copy.png' />
                   </Menu.Item>
                   <Menu.Item >
-                    <Link to='/home'>
+                    <Link style={font} to='/home'>
                     Home
                     </Link>
                   </Menu.Item>
-                  <Menu.Item ><Link to='/aboutus'>About Us</Link></Menu.Item>
-                  <Menu.Item ><Link to='/artists'>Artists</Link></Menu.Item>
-                  <Menu.Item ><Link to='/videos'>Videos</Link></Menu.Item>
-                  <Menu.Item ><Link to='/events'>Events</Link></Menu.Item>
-                  <Menu.Item ><Link to='/'>Store</Link></Menu.Item>
+                <Menu.Item ><Link style={font} to='/aboutus'>About Us</Link></Menu.Item>
+                  <Menu.Item ><Link style={font} to='/artists'>Artists</Link></Menu.Item>
+                  <Menu.Item ><Link style={font} to='/videos'>Videos</Link></Menu.Item>
+                  <Menu.Item ><Link style={font} to='/events'>Events</Link></Menu.Item>
+                  <Menu.Item ><Link style={font} to='/'>Store</Link></Menu.Item>
                   {/* <Menu.Item position='right'>
                     <Button as='a' inverted={!fixed}>
                       Log in
@@ -116,15 +120,15 @@ class MobileHeader extends Component {
         >
          
           <Menu.Item >
-            <Link to='/home'>
+            <Link style={font2} to='/home'>
               Home
                     </Link>
           </Menu.Item>
-          <Menu.Item ><Link to='/aboutus'>About Us</Link></Menu.Item>
-          <Menu.Item ><Link to='/artists'>Artists</Link></Menu.Item>
-          <Menu.Item ><Link to='/videos'>Videos</Link></Menu.Item>
-          <Menu.Item ><Link to='/events'>Events</Link></Menu.Item>
-          <Menu.Item ><Link to='/'>Store</Link></Menu.Item>
+          <Menu.Item ><Link style={font2} to='/aboutus'>About Us</Link></Menu.Item>
+          <Menu.Item ><Link style={font2} to='/artists'>Artists</Link></Menu.Item>
+          <Menu.Item ><Link style={font2} to='/videos'>Videos</Link></Menu.Item>
+          <Menu.Item ><Link style={font2} to='/events'>Events</Link></Menu.Item>
+          <Menu.Item ><Link style={font2} to='/'>Store</Link></Menu.Item>
         </Sidebar>
 
         <Sidebar.Pusher dimmed={sidebarOpened}>

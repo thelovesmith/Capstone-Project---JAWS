@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Header, Segment, Container, Grid, List } from 'semantic-ui-react'
+import { Button, Segment, Container, Grid, List } from 'semantic-ui-react'
 import Subscribe from '../Subscribe/index'
 import db from '../Firebase/firebase'
+
+const font = { fontFamily: 'Permanent Marker', fontSize: '20px', color: '#D679D5', textShadow: '0px 1px 3px #211700', letterSpacing: '2px' }
 
 class Footer extends Component {
   constructor() {
@@ -50,36 +52,41 @@ class Footer extends Component {
   }
   render(){
     return(
-      <Segment inverted vertical style={{ padding: '2em 1em 2em 1em' }}>
+      <Segment inverted vertical style={{ padding: '1em .5em .5em .5em' }}>
         <Container>
           <Grid divided inverted stackable textAlign='center'>
             <Grid.Row >
               <Grid.Column width={3}>
                 
                 <List link inverted>
-                  
-                    <Link to='/aboutus'> About Us
+                  <Button>
+                    <Link style={font} to='/aboutus'> About Us
                     </Link>
+                  </Button>
                                   
                 </List>
               </Grid.Column>
               <Grid.Column width={3}>
                 
-                <List link inverted>
-                  
-                    <a href='http://www.averydante.com/'> Site By</a>
+                
+                  <Button>
+
+                    <a style={font} href='http://www.averydante.com/'> Site By</a>
+                  </Button>
                                   
-                </List>
+               
               </Grid.Column>
               
               <Grid.Column width={3}>
-                
-                  <a href='http://rightdirectionpublishing.com/'> Publishing </a>
+                <Button>
+
+                  <a style={font} href='http://rightdirectionpublishing.com/'> Publishing </a>
+                </Button>
                 
               </Grid.Column>
               <Grid.Column width={3}>
 
-                <Button onClick={this.openModal}>
+                <Button style={font} onClick={this.openModal}>
                   Subscribe
                 </Button>
                 <Subscribe open={this.state.showSubscribeModal} addFriend={this.addFriend} handleNewFriend={this.handleNewFriend} fullName={this.state.fullName} email={this.state.email} closeModal={this.closeModal} />

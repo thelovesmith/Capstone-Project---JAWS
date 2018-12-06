@@ -4,8 +4,9 @@ import ArtistDisplay from '../ArtistsDisplay/index';
 import db from '../Firebase/firebase';
 import styled from 'styled-components';
  
-const Content = styled.div`
+const headStyle = { fontFamily: 'Bungee', color: '#FFBA36', textShadow: '1px 1px 9px #AC27F2', textAlign: 'center', fontSize: '50px', marginTop: '20px' }
 
+const Content = styled.div`
 background-image: url( https://media.giphy.com/media/l0MYDdL8WEgSXf41W/giphy.gif);
 background-size: cover;
 background-repeat: no-repeat;
@@ -52,7 +53,7 @@ class Artists extends Component{
   render(){
     return (
       <Content>
-        <Header>Artists</Header>
+        <Header style={headStyle}>Artists</Header>
         <ArtistDisplay allArtists={this.state.artists}/>
       </Content>
     )

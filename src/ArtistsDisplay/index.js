@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MicrolinkCard from 'react-microlink';
-import { Container, Segment, Header, Card, Grid, Image, Divider, Icon} from 'semantic-ui-react';
+import {  Header, Grid, Image, Divider,} from 'semantic-ui-react';
 
 
 class ArtistDisplay extends Component {
