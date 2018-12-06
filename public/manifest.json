@@ -1,6 +1,6 @@
 {
   "short_name": "JAWS",
-  "name": "JAck OF All Waves",
+  "name": "Jack Of All Waves",
   "icons": [
     {
       "src": "https://res.cloudinary.com/averydante/image/upload/c_scale,w_63/v1543898120/Jaws/Shark_Player_Layer_copy.png",
@@ -10,6 +10,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#FFAF73",
+  "background_color": "#FFA2CF"
 }
