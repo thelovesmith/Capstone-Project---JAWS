@@ -77,8 +77,8 @@ class Home extends Component {
           <Grid container stackable verticalAlign='middle'>
             <Grid.Row>
               <Grid.Column width={8}>
-                <Header as='h3' style={{ fontSize: '2em' }}>
-                  lorem ipsum 
+                <Header as='h3' style={{ fontSize: '2em', color:'orange' }}>
+                  Jack Of All Waves
             </Header>
                 <p style={{ fontSize: '1.33em' }}>
                   We can give your company superpowers to do things that they never thought possible.
@@ -93,7 +93,7 @@ class Home extends Component {
             </p>
               </Grid.Column>
               <Grid.Column floated='right' width={6}>
-                <Image bordered rounded size='large' src='/images/wireframe/white-image.png' />
+                <Image bordered rounded size='large' src='https://res.cloudinary.com/averydante/image/upload/v1543898151/Jaws/JAWS_SHARK_layer.png' />
               </Grid.Column>
             </Grid.Row>
             <Grid.Row>
@@ -108,17 +108,17 @@ class Home extends Component {
             <Grid.Row textAlign='center'>
               <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
                 <Header as='h3' style={{ fontSize: '2em' }}>
-                  "What a Company"
+                  Interstellar Wave Love
             </Header>
-                <p style={{ fontSize: '1.33em' }}>That is what they all say about us</p>
+                <p style={{ fontSize: '1.33em' }}>Riding harmonic waves into the cosmic soul</p>
               </Grid.Column>
               <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
                 <Header as='h3' style={{ fontSize: '2em' }}>
-                  "I shouldn't have gone with their competitor."
+                  Lorem import {  } from "module";
             </Header>
                 <p style={{ fontSize: '1.33em' }}>
                   <Image avatar src='/images/avatar/large/nan.jpg' />
-                  <b>Nan</b> Chief Fun Officer Acme Toys
+                  "Every moment is a <b>test</b> or <b>celebration</b>"
             </p>
               </Grid.Column>
             </Grid.Row>
@@ -127,7 +127,7 @@ class Home extends Component {
         <Segment style={{ padding: '8em 0em' }} vertical>
           <Container text>
             <Header as='h3' style={{ fontSize: '2em' }}>
-              Breaking The Grid, Grabs Your Attention
+              Check Out Our Released Singles 
         </Header>
             <p style={{ fontSize: '1.33em' }}>
               Instead of focusing on content creation and hard work, we have learned how to master the

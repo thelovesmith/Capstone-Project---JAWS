@@ -2,7 +2,16 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import ArtistDisplay from '../ArtistsDisplay/index'
 import db from '../Firebase/firebase'
+import styled from 'styled-components'
  
+const Content = styled.div`
+margin: 5px;
+background-image: url( https://res.cloudinary.com/averydante/image/upload/v1543898168/Jaws/tumblr_n6nlhgSmDr1qzgjfco1_500.gif);
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 10px;
+`
+
 class Artists extends Component{
   constructor(){
     super();
@@ -30,18 +39,19 @@ class Artists extends Component{
           Instagram, 
           Name
         })
+        this.setState({
+          artists: artistsArray
+        })
       })
     })
-    this.setState({
-      artists: artistsArray
-    })
+    
   }
   render(){
     return (
-      <div>
+      <Content>
         <h1>Artists</h1>
         <ArtistDisplay allArtists={this.state.artists}/>
-      </div>
+      </Content>
     )
   }
 }

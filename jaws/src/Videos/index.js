@@ -10,6 +10,11 @@ font-size: 50px;
 color: red;
 text-align: center;
 `
+const Content = styled.div`
+background-image: url(https://res.cloudinary.com/averydante/image/upload/v1543898178/Jaws/Nebula_Aurigae_image.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+`
 class Videos extends Component {
   constructor() {
     super();
@@ -49,10 +54,10 @@ class Videos extends Component {
   }
   render(){
     return(
-      <div>
+      <Content>
         <Header>Videos</Header>
         <VideoDisplay allVideos={this.state.videos}/>
-      </div>
+      </Content>
     )
   }
 }

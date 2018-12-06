@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-// import db from '../Firebase/firebase'
 import MicrolinkCard from 'react-microlink'
-
 import { Container, Segment, Header, Card, Grid } from 'semantic-ui-react'
 
 
 class VideoDisplay extends Component {
-  
   render(){ 
     const allVideos = this.props.allVideos.map((video) => {
       return(
